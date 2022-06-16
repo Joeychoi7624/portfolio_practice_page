@@ -1,0 +1,14 @@
+@import "reset.css";
+
+/* Components*/
+@import "components/nav-bar.css";
+@import "components/header.css";
+
+/* Screens */
+@import "screens/main.css";
+
+
+body, html{
+    height: 100%;
+    font-family: "Gill Sans", sans-serif;
+}

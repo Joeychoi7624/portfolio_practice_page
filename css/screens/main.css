@@ -1,0 +1,33 @@
+.main-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main-intro__words1 {
+    width: 330px;
+    color: white;
+}
+
+.main-intro__me {
+    color: wheat;
+    font-size: 20px;
+}
+
+.main-intro__part1 img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main-intro__words2 {
+    margin-top: 20px;
+    width: 330px;
+    color: blanchedalmond;
+}
+
+#clock {
+    color: wheat;
+    font-size: 100px;
+}
