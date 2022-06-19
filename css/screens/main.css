@@ -19,15 +19,12 @@
 .main-intro__part1 img {
     border-radius: 10px;
     margin-top: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 .main-intro__words2 {
-    margin-top: 20px;
     width: 330px;
     color: blanchedalmond;
-}
-
-#clock {
-    color: wheat;
-    font-size: 100px;
+    margin-right: 200px;
 }

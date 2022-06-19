@@ -5,26 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joey's Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html">
-            <h1>Jongmin Choi</h1>
-        </a>
-    </header>
-
-    <nav class="nav">
-        <li class="nav-list">
-            <ul class="nav-list__item">font-1</ul>
-            <ul class="nav-list__item">font-2</ul>
-            <ul class="nav-list__item">font-3</ul>
-        </li>
-    </nav>
-
     <main class="main">
+        <section class="header">
+            <form class="hidden" id="login-form">
+                <input required maxlength="15" type="text" placeholder="What is your name?" />
+                <input type="submit" value="Log In" />
+            </form>
+            <h1 class="hidden" id="greeting"></h1>
+
+            <h2 id="clock">00:00:00</h2>
+        </section>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required />
+        </form>
+        <ul id="todo-list"></ul>
+
+
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+
         <div class="main-intro">
             <div class="main-intro__part1">
                 <p class="main-intro__words1">안녕하세요. 저는 백엔드 개발자를 희망하는
@@ -35,20 +47,30 @@
                     사전스터디에서 실무적인 것들을 위주로 하기 보다는
                     프래그래밍의 기초를 다진다는 방향으로 공부를 할 예정입니다.
                 </p>
-                <img src="img/0.jpeg" />
+                <img src="img/bg0.jpeg" />
             </div>
             <div class="main-intro__part2">
                 <p class="main-intro__words2">
                     이쪽 부분에 사전스터디를 하면서 꾸준히 현재의 사이트를 업데이트 해가며
                     공부 진행 현황과 결과물들을 추가해나갈 예정입니다.
-                <h2 id="clock">00:00:00</h2>
                 </p>
             </div>
     </main>
 
+    <nav class="nav">
+        <li class="nav-list">
+            <ul class="nav-list__item">font-1</ul>
+            <ul class="nav-list__item">font-2</ul>
+            <ul class="nav-list__item">font-3</ul>
+        </li>
+    </nav>
+
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
-    <script src="js/clock.js">
-    </script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>

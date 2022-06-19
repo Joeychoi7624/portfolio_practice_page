@@ -1,3 +1,10 @@
-document.body.style.background = "url('img/bg0.jpeg')";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundSize = "cover";
+const images = ["0.jpeg", "1.jpeg", "2.jpeg"];
+
+const chosenImage = images[Math.floor(Math.random() * images.length)];
+
+document.body.style.background = `url(img/${chosenImage})`;
+
+
+
+
+ 
